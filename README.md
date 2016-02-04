@@ -8,7 +8,7 @@ An unexpected project
 And then you're done  
 
 # Authors (their Twitter @)
-English - TheBitStick
-Japanese - TheBitStick
-Spanish - TheBitStick
-Polish - Michcioperz
+English - TheBitStick  
+Japanese - TheBitStick  
+Spanish - TheBitStick  
+Polish - Michcioperz  
