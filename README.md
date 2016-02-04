@@ -5,4 +5,10 @@ An unexpected project
 2. Add [This snippit](https://paste.thebitstick.xyz/idoxulozoc.py) somewhere inside server.py
 3. Replace the Error handling portion of server.py with [this](https://paste.thebitstick.xyz/eqevamotuh.py)  
 
-And then you're done
+And then you're done  
+
+# Authors (their Twitter @)
+English - TheBitStick
+Japanese - TheBitStick
+Spanish - TheBitStick
+Polish - Michcioperz
