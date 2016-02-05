@@ -1,27 +1,22 @@
 {%  extends "regularar.html" %}
 {% block body %}
   <h1 id="limits">أسئلة شائعة</h1>
-
   <h2>
     هل أستطيع إستخدام ShareX  للرفع مُباشراً إلى الموقع؟
   </h2>
   <p>بالطبع تستطيع! هذا ملف الإعدادات: <a href="https://paste.thebitstick.xyz/owosevujod">أنا رابط</a></p>
   <p>قُم باستيراده كرافع مُخصص وأرفع ما تُريد.</p>
-
   <h2>
     هل يُمكنني الرفع عن طريق هاتفي؟
   </h2>
-  <p><a href="{{ url_for('static', filename="AddToHomescreen.png") }}">وقد ترغب بإضافة {{ page.title }} إلى شاشتك الرئيسية</a>بالطبع يُمكنك هذا.</p>
-
+  <p>بالطبع يُمكنك هذا. <a href="{{ url_for('static', filename="AddToHomescreen.png") }}">وقد ترغب بإضافة {{ page.title }} إلى شاشتك الرئيسية</a></p>
   <h2>
-    من المسؤول هذا الشيء؟
+    من المسؤول عن هذا الشيء؟
   </h2>
   <p>شخصٌ ما يُدعى BitStick (<a href="https://www.thebitstick.xyz">موقع</a>)</p>
-
   <h2>
     كيف يعمل الموقع؟
   </h2>
   <p>الخادم ماهو إلا عبارة عن Raspberry Pi مع CloudFlare لتخفيف الباندويث.</p>
   <p>أما الموقع نفسه فهو يعمل على البايثون/Flask بشكل كامل.</p>
-
 {% endblock %}
