@@ -13,7 +13,7 @@ Japanese - TheBitStick
 Spanish - TheBitStick  
 Polish - Michcioperz  
 Swedish - VirusForYou  
-German - _Hiroyu
+German - _Hiroyu  
 Arabic - ikkoup
 
 # Submission
