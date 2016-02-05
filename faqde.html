@@ -1,0 +1,27 @@
+{%  extends "regularde.html" %}
+{% block body %}
+  <h1 id="limits">Häufig gestellte Fragen/h1>
+
+  <h2>
+    Kann ich ShareX zum Hochladen benutzen?
+  </h2>
+  <p>Sicher! Hier ist die Konfiguration: <a href="https://paste.thebitstick.xyz/owosevujod">ich bin link/a></p>
+  <p>Importiere dies als ein eigener Hochlader und leg los</p>
+
+  <h2>
+    Kann ich mit meinem Handy hochladen?
+  </h2>
+  <p>Sicher, leg los. Vieleicht möchtest Du sogar <a href="{{ url_for('static', filename="AddToHomescreen.png") }}"> {{ page.title }} zu deinem Startbildschirm hinzufügen</a>.</p>
+
+  <h2>
+    Wer stellt dies bereit
+  </h2>
+  <p>Ein Typ namens BitStick (<a href="https://www.thebitstick.xyz">Website</a>)</p>
+
+  <h2>
+    Was treibt diese Seite an?
+  </h2>
+  <p>Der Server selbst ist eine Raspberry Pi, welche hinter CloudFlare sitzt.</p>
+  <p>Die Seite selbst wird komplett mit Python/Flask betrieben.</p>
+
+{% endblock %}
