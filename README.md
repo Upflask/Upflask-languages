@@ -11,5 +11,5 @@ Spanish - TheBitStick
 Polish - Michcioperz  
 Swedish - VirusForYou  
 German - _Hiroyu  
-Arabic - ikkoup
+Arabic - ikkoup  
 Dutch - smugwave
