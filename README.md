@@ -14,3 +14,4 @@ Polish - Michcioperz
 Swedish - VirusForYou  
 German - _Hiroyu  
 Arabic - ikkoup
+Dutch - smugwave
