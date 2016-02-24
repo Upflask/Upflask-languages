@@ -1,0 +1,18 @@
+{%  extends "regularpl.html" %}
+{% block body %}
+<h1 id="limits">Najczęściej zadawane pytania</h1>
+
+<h2>Czy mogę używać ShareX?</h2>
+<p>Oczywiście! Oto ustawienia: <a href="https://paste.thebitstick.xyz/owosevujod">jestem linkiem</a></p>
+<p>Zaimportuj je jako custom uploader i wrzucaj!</p>
+
+<h2>Czy mogę dodawać pliki z telefonu?</h2>
+<p>Jasne. Możesz nawet <a href="{{ url_for('static', filename="AddToHomescreen.png") }}">dodać {{ page.title }} do ekranu głównego</a>.</p>
+
+<h2>Kto tym kieruje?</h2>
+<p>Pewien typ znany jako BitStick (<a href="https://www.thebitstick.xyz">Strona internetowa</a>).</p>
+
+<h2>Jak to działa?</h2>
+<p>Serwer to właściwie Raspberry Pi, siedzące za CloudFlare'em.</p>
+<p>Strona to faktycznie czysty Python/Flask.</p>
+{% endblock %}

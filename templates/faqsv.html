@@ -1,0 +1,27 @@
+{%  extends "regularsv.html" %}
+{% block body %}
+  <h1 id="limits">Ofta frågade frågor</h1>
+
+  <h2>
+    Kan jag ladda upp med ShareX?
+  </h2>
+  <p>Självklart! Här är configuration: <a href="https://paste.thebitstick.xyz/owosevujod">jag är länken</a></p>
+  <p>Importera det som "custom uploader" och det är bara att rulla</p>
+
+  <h2>
+    Kan jag ladda upp från min Telefon?
+  </h2>
+  <p>Självklart, gör det. Du kanske till och med vill lägga <a href="{{ url_for('static', filename="AddToHomescreen.png") }}">till {{ page.title }} till din hemskärm</a>.</p>
+
+  <h2>
+    Vem driver den här saken?
+  </h2>
+  <p>En kille som heter BitStick (<a href="https://www.thebitstick.xyz">Webbplats</a>)</p>
+
+  <h2>
+    Vad driver den här sidan?
+  </h2>
+  <p>Servern själv är en Raspberry Pi, som sitter bakom CloudFlare.</p>
+  <p>Hemsidan är driven enbart på Python/flask.</p>
+
+{% endblock %}
