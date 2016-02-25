@@ -13,4 +13,8 @@ Polish - Michcioperz
 Swedish - VirusForYou  
 German - _Hiroyu  
 Arabic - ikkoup  
-Dutch - smugwave
+Dutch - smugwave  
+
+### Contribution
+Do you want to submit a translation, or help fix an existing translation? Go ahead and make a Pull Request and translate the English files from the main repository.  
+
