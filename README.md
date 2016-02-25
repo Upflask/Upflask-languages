@@ -1,4 +1,4 @@
-# Upflask-language-packs
+# Upflask-languages
 > An unexpectedly large project  
 
 1. Download all of these templates and put them inside the `templates/` folder inside Upflask
