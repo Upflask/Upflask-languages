@@ -1,0 +1,27 @@
+{%  extends "regular.html" %}
+{% block body %}
+  <h1 id="limits">Usein kysytyt kysymykset</h1>
+
+  <h2>
+    Voinko käyttää ShareXsiä lähettämään tiedostoja?
+  </h2>
+  <p>Kyllä voit! Tässä on asetukset: <a href="https://paste.thebitstick.xyz/owosevujod">minä olen linkki</a></p>
+  <p>Liitä se erikois lähettäjänä ja anna palaa</p>
+
+  <h2>
+    Voinko käyttää puhelinta tiedostojen lähettämiseen?
+  </h2>
+  <p>Tottakai, siitä vaan. Sinä todennäköisesti haluat <a href="{{ url_for('static', filename="AddToHomescreen.png") }}">lisätä {{ page.title }} sinun kotinäytöllesi</a>.</p>
+
+  <h2>
+    Kuka ylläpitää tätä nettivua?
+  </h2>
+  <p>Jätkä nimeltä BitStick (<a href="https://www.thebitstick.xyz">Nettisivu</a>)</p>
+
+  <h2>
+    Mikä ylläpitää tätä nettisivua?
+  </h2>
+  <p>Palvelin itse on Raspberry Pi, Cloudflarerin takana.</p>
+  <p>Itse nettisivu puhtaasti käyttää Python/Flask.</p>
+
+{% endblock %}

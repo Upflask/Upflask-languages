@@ -1,0 +1,34 @@
+{% extends "shell.html" %}
+{% block body %}
+  <h1 class="title">
+    Upflask
+  </h1>
+  <form action="file" id="form" name="fileForm" method="post" enctype="multipart/form-data" class="uploadForm">
+    <div id="uploadButton" class="uploadButton">
+      <p id="uploadText">
+        Päätä tiedosto
+      </p>
+      <input id="file" type="file" name="file">
+    </div>
+    <input type="hidden" name="source" value="web">
+  </form>
+  <ul class="links">
+    <li>
+      <a href="/terms">Ehdot</a>
+    </li>
+    <li>
+      <a href="/faq">Usein kysytyt kysymykset</a>
+    </li>
+  </ul>
+  <script>
+  document.getElementById("file").onchange = function() {
+    document.getElementById("uploadText").innerHTML = "Uploading...";
+    var button = document.getElementById("uploadButton");
+    button.className = button.className + " uploading";
+    document.getElementById("form").submit();
+  };
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/size.js"></script>
+  <script type="text/javascript" src="/static/type.js"></script>
+{% endblock %}
