@@ -14,7 +14,7 @@ Swedish - VirusForYou
 German - _Hiroyu  
 Arabic - ikkoup  
 Dutch - smugwave  
-Finnish - LoliHookDev
+Finnish - LoliHookDev  
 Serbian - wwuxo
 
 ### Contribution
